@@ -1,0 +1,148 @@
+body {
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #f0f2f5;
+}
+
+.cartao {
+	background-color: white;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 350px;
+}
+
+#titulo-pet {
+	color: #333;
+	margin-top: 0;
+}
+
+.moldura-imagem {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	/* Faz a moldura redonda */
+	overflow: hidden;
+	/* Garante que a imagem fique dentro do círculo */
+	border: 5px solid #ddd;
+	margin: 0 auto 20px auto;
+	/* Centraliza a moldura */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #eee;
+}
+
+#imagem-pet {
+	/* Faz a imagem preencher a moldura sem distorcer */
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-botoes {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	transition: background 0.3s;
+}
+
+#btn-cao {
+	background-color: #4CAF50;
+	color: white;
+}
+
+#btn-cao:hover {
+	background-color: #45a049;
+}
+
+#btn-gato {
+	background-color: #2196F3;
+	color: white;
+}
+
+#btn-gato:hover {
+	background-color: #1e88e5;
+}
+
+#btn-background {
+	background-color: #FF9800;
+	color: white;
+	width: 100%;
+}
+
+#btn-background:hover {
+	background-color: #e68900;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+	body {
+		height: auto;
+		padding: 20px;
+	}
+
+	.cartao {
+		width: 100%;
+		max-width: 350px;
+		padding: 20px;
+	}
+
+	.moldura-imagem {
+		width: 150px;
+		height: 150px;
+	}
+
+	button {
+		padding: 8px 16px;
+		font-size: 14px;
+	}
+
+	.container-botoes {
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	#btn-cao, #btn-gato {
+		flex: 1;
+	}
+}
+
+@media (max-width: 480px) {
+	.cartao {
+		padding: 15px;
+		width: 90vw;
+	}
+
+	.moldura-imagem {
+		width: 120px;
+		height: 120px;
+	}
+
+	#titulo-pet {
+		font-size: 20px;
+		margin: 0;
+	}
+
+	button {
+		padding: 10px 12px;
+		font-size: 13px;
+	}
+
+	.container-botoes {
+		gap: 6px;
+	}
+}
