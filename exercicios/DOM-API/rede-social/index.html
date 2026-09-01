@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conecta - Rede Social</title>
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="navbar.css" />
+	<link rel="stylesheet" href="post.css" />
+	<link rel="stylesheet" href="post-options.css" />
+	<link rel="stylesheet" href="comments.css" />
+</head>
+
+<body>
+	<!-- ===== Barra de navegação superior ===== -->
+	<header class="navbar">
+		<div class="logo">Conecta</div>
+		<div class="nav-icons">
+			<span class="icon" title="Notificações">🔔 <span class="number">0</span></span>
+			<span class="icon" title="Perfil">👤</span>
+		</div>
+	</header>
+
+	<!-- ===== Feed ===== -->
+	<main class="feed">
+
+		<!-- Publicação 1: texto + imagem -->
+		<article class="post">
+			<div class="post-header">
+				<img class="avatar" src="https://api.dicebear.com/9.x/avataaars/svg?seed=Marina-Souza"
+					alt="Avatar de Marina Souza">
+				<div class="author-info">
+					<span class="author-name">Marina Souza</span>
+					<span class="post-date">31 de agosto de 2026 às 09:42</span>
+				</div>
+				<div class="post-options">
+					<span class="options-button">⋯</span>
+					<div class="options-menu">
+						<a href="#">Ocultar publicação</a>
+						<a href="#">Denunciar publicação</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="post-content">
+				<p class="post-text">Fim de semana na trilha da Pedra do Sino! O clima estava perfeito.</p>
+				<img class="post-image"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/View_from_Pedra_do_Sino%2C_Acu_-_panoramio.jpg/960px-View_from_Pedra_do_Sino%2C_Acu_-_panoramio.jpg"
+					alt="Foto da trilha">
+			</div>
+
+			<div class="post-stats">
+				<span class="likes-count">128 curtidas</span>
+				<span class="comments-count">14 comentários</span>
+			</div>
+
+			<div class="post-actions">
+				<button class="action-button like-button">Curtir</button>
+				<button class="action-button comment-toggle-button">Comentar</button>
+			</div>
+
+			<section class="comments-section">
+				<div class="comment">
+					<img class="avatar" src="https://api.dicebear.com/9.x/avataaars/svg?seed=Bruno-Lima"
+						alt="Avatar de Bruno Lima">
+					<div class="comment-body">
+						<span class="comment-author">Bruno Lima</span>
+						<p class="comment-text">Que paisagem incrível, preciso ir também!</p>
+					</div>
+				</div>
+				<div class="comment">
+					<img class="avatar" src="https://api.dicebear.com/9.x/avataaars/svg?seed=Carla-Nunes"
+						alt="Avatar de Carla Nunes">
+					<div class="comment-body">
+						<span class="comment-author">Carla Nunes</span>
+						<p class="comment-text">Foi difícil a subida?</p>
+					</div>
+				</div>
+
+				<form class="new-comment-form">
+					<input type="text" placeholder="Escreva um comentário...">
+					<button type="submit" class="action-button">Enviar</button>
+				</form>
+			</section>
+		</article>
+
+		<!-- Publicação 2: apenas texto -->
+		<article class="post">
+			<div class="post-header">
+				<img class="avatar" src="https://api.dicebear.com/9.x/avataaars/svg?seed=Joao-Pereira"
+					alt="Avatar de João Pereira">
+				<div class="author-info">
+					<span class="author-name">João Pereira</span>
+					<span class="post-date">30 de agosto de 2026 às 21:15</span>
+				</div>
+				<div class="post-options">
+					<span class="options-button">⋯</span>
+					<div class="options-menu">
+						<a href="#">Ocultar publicação</a>
+						<a href="#">Denunciar publicação</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="post-content">
+				<p class="post-text">Alguém tem recomendação de curso de introdução a bancos de dados? Aceito sugestões!
+				</p>
+			</div>
+
+			<div class="post-stats">
+				<span class="likes-count">32 curtidas</span>
+				<span class="comments-count">5 comentários</span>
+			</div>
+
+			<div class="post-actions">
+				<button class="action-button like-button">Curtir</button>
+				<button class="action-button comment-toggle-button">Comentar</button>
+			</div>
+
+			<section class="comments-section">
+				<div class="comment">
+					<img class="avatar" src="https://api.dicebear.com/9.x/avataaars/svg?seed=Ana-Costa"
+						alt="Avatar de Ana Costa">
+					<div class="comment-body">
+						<span class="comment-author">Ana Costa</span>
+						<p class="comment-text">Eu fiz um bem legal na faculdade, te chamo no privado.</p>
+					</div>
+				</div>
+
+				<form class="new-comment-form">
+					<input type="text" placeholder="Escreva um comentário...">
+					<button type="submit" class="action-button">Enviar</button>
+				</form>
+			</section>
+		</article>
+
+		<!-- Publicação 3: texto + imagem -->
+		<article class="post">
+			<div class="post-header">
+				<img class="avatar" src="https://api.dicebear.com/9.x/avataaars/svg?seed=Fernanda-Alves"
+					alt="Avatar de Fernanda Alves">
+				<div class="author-info">
+					<span class="author-name">Fernanda Alves</span>
+					<span class="post-date">30 de agosto de 2026 às 14:03</span>
+				</div>
+				<div class="post-options">
+					<span class="options-button">⋯</span>
+					<div class="options-menu">
+						<a href="#">Ocultar publicação</a>
+						<a href="#">Denunciar publicação</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="post-content">
+				<p class="post-text">Novo prato testado hoje: risoto de funghi. Ficou ótimo!</p>
+				<img class="post-image"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/RISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg/960px-RISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg"
+					alt="Foto do risoto de funghi">
+			</div>
+
+			<div class="post-stats">
+				<span class="likes-count">201 curtidas</span>
+				<span class="comments-count">27 comentários</span>
+			</div>
+
+			<div class="post-actions">
+				<button class="action-button like-button">Curtir</button>
+				<button class="action-button comment-toggle-button">Comentar</button>
+			</div>
+
+			<section class="comments-section">
+				<div class="comment">
+					<img class="avatar" src="https://api.dicebear.com/9.x/avataaars/svg?seed=Pedro-Rocha"
+						alt="Avatar de Pedro Rocha">
+					<div class="comment-body">
+						<span class="comment-author">Pedro Rocha</span>
+						<p class="comment-text">Manda a receita!</p>
+					</div>
+				</div>
+
+				<form class="new-comment-form">
+					<input type="text" placeholder="Escreva um comentário...">
+					<button type="submit" class="action-button">Enviar</button>
+				</form>
+			</section>
+		</article>
+
+	</main>
+</body>
+
+</html>

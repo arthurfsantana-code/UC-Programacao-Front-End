@@ -1,0 +1,27 @@
+/* ===== Barra de navegação ===== */
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ffffff;
+	border-bottom: 1px solid #dddddd;
+	padding: 10px 20px;
+	position: sticky;
+	top: 0;
+}
+
+.navbar .logo {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.navbar .nav-icons {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.navbar .icon {
+	font-size: 22px;
+	cursor: pointer;
+}
