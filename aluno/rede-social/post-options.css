@@ -1,0 +1,52 @@
+/* ===== Menu de opções (3 pontinhos) ===== */
+.post-options {
+	position: relative;
+}
+
+.post-options .options-button {
+	cursor: pointer;
+	font-size: 20px;
+	padding: 5px 10px;
+	border-radius: 50%;
+	transition: background-color 0.2s;
+}
+
+.post-options .options-button:hover {
+	background-color: #f0f2f5;
+}
+
+.post-options .options-menu {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	display: none;
+	z-index: 100;
+	min-width: 180px;
+	overflow: hidden;
+}
+
+.post-options .options-menu.active {
+	display: block;
+}
+
+.post-options .options-menu a {
+	display: block;
+	padding: 10px 15px;
+	color: #050505;
+	text-decoration: none;
+	border-bottom: 1px solid #f0f2f5;
+	font-size: 14px;
+	transition: background-color 0.2s;
+}
+
+.post-options .options-menu a:last-child {
+	border-bottom: none;
+}
+
+.post-options .options-menu a:hover {
+	background-color: #f0f2f5;
+}
