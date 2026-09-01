@@ -1,0 +1,72 @@
+/* ===== Publicação ===== */
+.post {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	padding: 15px;
+}
+
+.post-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.post-header .avatar {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+
+.post-header .author-info {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.post-header .author-name {
+	font-weight: bold;
+}
+
+.post-header .post-date {
+	font-size: 12px;
+	color: #666666;
+}
+
+.post-content {
+	margin: 15px 0;
+}
+
+.post-content .post-text {
+	margin: 0 0 10px 0;
+}
+
+.post-content .post-image {
+	width: 100%;
+	border-radius: 6px;
+}
+
+.post-stats {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #666666;
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 8px;
+}
+
+.post-actions {
+	display: flex;
+	gap: 10px;
+	padding-top: 8px;
+}
+
+.post-actions .action-button {
+	flex: 1;
+	text-align: center;
+	background: none;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+	font-size: 14px;
+}

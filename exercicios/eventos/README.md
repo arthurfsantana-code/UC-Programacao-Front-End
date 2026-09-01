@@ -18,4 +18,14 @@ Faça os exercícios a seguir escrevendo código JavaScript a ser vinculado à s
 
 4. **Baralho `📁 baralho/`:** escreva um código que adiciona um evento ao baralho exibido, fazendo com que uma carta seja comprada a partir do array de objetos no `baralho.js`. Inclua a carta sorteada na página e remova-a do array.
 
-5. **{Em elaboração}**
+    - Para sortear a carta, utilize o método [Math.random()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+
+### Desafio
+
+5. **Vinte e um:** com base em no exercício anterior, implemente um jogo de 21 para 2 jogadores.
+    - Cada jogador deve iniciar recebendo duas cartas
+    - A mesa vira uma carta
+    - Cada jogador escolhe comprar mais uma carta ou não em seu turno
+    - Caso um jogador estoure (passe de 21), o outro deve ser considerado ganhador da rodada
+    - A carta da mesa é virada
+    - Verifique novamente se algum jogador, somando a carta da mesa, estourou, senão quem chegou mais próximo de 21

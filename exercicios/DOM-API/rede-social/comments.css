@@ -1,0 +1,51 @@
+/* ===== Comentários (começam colapsados) ===== */
+.comments-section {
+	display: block;
+	/* alunos irão exibir via JavaScript */
+	margin-top: 10px;
+	border-top: 1px solid #eeeeee;
+	padding-top: 10px;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.comment {
+	display: flex;
+	gap: 8px;
+}
+
+.comment .avatar {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.comment .comment-body {
+	background-color: #f0f2f5;
+	border-radius: 10px;
+	padding: 6px 10px;
+}
+
+.comment .comment-author {
+	font-weight: bold;
+	font-size: 13px;
+	display: block;
+}
+
+.comment .comment-text {
+	font-size: 14px;
+	margin: 0;
+}
+
+.new-comment-form {
+	display: flex;
+	gap: 8px;
+	margin-top: 5px;
+}
+
+.new-comment-form input {
+	flex-grow: 1;
+	padding: 8px;
+	border: 1px solid #dddddd;
+	border-radius: 15px;
+}
